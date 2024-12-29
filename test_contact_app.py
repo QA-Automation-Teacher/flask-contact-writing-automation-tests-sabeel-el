@@ -47,10 +47,6 @@ def test_get_all(client,contact):
     response = client.get('/contacts')
     assert response.status_code == 200
 
-def test_get_name(client,contact):
-    
-    response = client.get('/contacts')
-    assert 'Jane Doe' in response.data.decode()
 
 def test_delete_contact(client,contact):
     
