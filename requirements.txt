@@ -4,3 +4,4 @@ Flask-SQLAlchemy==2.5.1
 Flask-WTF==1.2.2
 Werkzeug==3.0.0
 email-validator==2.2.0
+sqlalchemy-serializer==1.4.22
